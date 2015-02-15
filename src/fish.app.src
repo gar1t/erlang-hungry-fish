@@ -1,0 +1,9 @@
+%%% -*-erlang-*-
+{application, fish,
+ [{description, "Hungry fish"},
+  {vsn, "0.0.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+ ]}.

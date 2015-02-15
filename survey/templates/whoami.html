@@ -1,0 +1,12 @@
+{% extends "page.html" %}
+
+{% block title %}About You{% endblock %}
+
+{% block content %}
+{{ snippets|get:'whoami'|markdown_to_html }}
+{% endblock %}
+
+{% block nav %}
+<a href="instructions.html">Back</a>&emsp;
+<a href="questions.html">Next</a>
+{% endblock %}

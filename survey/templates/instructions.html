@@ -1,0 +1,12 @@
+{% extends "page.html" %}
+
+{% block title %}Instructions{% endblock %}
+
+{% block content %}
+{{ snippets|get:'instructions'|markdown_to_html }}
+{% endblock %}
+
+{% block nav %}
+<a href="index.html">Back</a>&emsp;
+<a href="whoami.html">Next</a>
+{% endblock %}

@@ -1,0 +1,2 @@
+gen:
+	lpad-gen
